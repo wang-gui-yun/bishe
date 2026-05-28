@@ -1,0 +1,131 @@
+.body { 
+	width: 1020px;
+	margin: auto;
+}
+
+.btitle {  
+	height: 80px;
+	border-bottom: 2px solid #ccc;
+	display: flex;
+	justify-content: space-between;
+}
+ 
+.btitle>.one {
+	display: flex;
+	height: 100%;
+	align-items: center;
+} 
+
+ 
+.btitle>.one>div {
+	margin-right: 50px;
+}
+
+.btitle>.one>div>span {
+	color: red;
+	font-weight: bold;
+}
+
+.btitle>.two {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.btitle>.two>span {
+	color: red;
+	font-weight: bold;
+}
+
+.bnav {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.bnav>div {}
+
+.lone {
+	width: 10%;
+}
+
+.two {
+	width: 45%;
+}
+
+.three {
+	width: 10%;
+}
+
+.four {
+	width: 15%;
+}
+
+.five {
+	width: 10%;
+}
+
+.ser {
+	width: 10%;
+	cursor: pointer;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+}
+
+.two {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+
+.two>img {
+	max-width: 70px;
+	max-height: 70px;
+	margin-right: 10px;
+}
+
+.quane {
+	color: red;
+	font-weight: bold;
+}
+
+.quane>span {
+	color: red;
+}
+
+.four>input {
+	width: 40px;
+	text-align: center;
+	height: 30px;
+}
+
+.four>button {
+	height: 30px;
+}
+
+.list>li {
+	padding: 30px 20px;
+	background-color: #eee;
+	margin-top: 30px;
+}
+
+.jimg {
+	/* overflow:hidden; */
+}
+
+.jimg>img:hover {
+	transition: all .4s;
+	transform: scale(1.2);
+}

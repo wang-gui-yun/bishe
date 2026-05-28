@@ -1,0 +1,38 @@
+.goodsBox{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.goodsBox>.item{
+	width: 49%;
+	margin-bottom: 25px;
+}
+
+.goodsBox>.item>img{
+	width: 100%;
+	display: block;
+	height: 380px;
+	object-fit: cover;
+}
+
+.goodsBox>.item>h3{
+	padding: 10px 0;
+}
+
+.goodsBox>.item>.jia{
+	text-align: right;
+	color: red;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.goodsBox>.item>button{
+	display: block;
+	width: 100%;
+	height:40px;
+	color: #fff;
+	background-color: red;
+	border: none;
+	font-size: 18px;
+}
